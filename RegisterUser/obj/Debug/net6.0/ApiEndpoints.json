@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "HelloApp.Controllers.UserController",
+    "Method": "LoginUser",
+    "RelativePath": "UserRegister/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "ModelLayer.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloApp.Controllers.UserController",
+    "Method": "RegisterUser",
+    "RelativePath": "UserRegister/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "ModelLayer.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

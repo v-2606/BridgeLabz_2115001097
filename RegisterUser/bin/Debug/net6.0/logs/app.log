@@ -1,0 +1,44 @@
+2025-03-03 22:35:57.7044 | Info | Application Starting... 
+2025-03-03 22:36:00.9020 | Info | Now listening on: https://localhost:7209 
+2025-03-03 22:36:00.9196 | Info | Now listening on: http://localhost:5100 
+2025-03-03 22:36:01.4016 | Info | Application started. Press Ctrl+C to shut down. 
+2025-03-03 22:36:01.4016 | Info | Hosting environment: Development 
+2025-03-03 22:36:01.4016 | Info | Content root path: C:\Users\varsh\OneDrive\Desktop\RegisterUser\RegisterUser\ 
+2025-03-03 22:36:06.8511 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger - - 
+2025-03-03 22:36:09.7514 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger - - - 301 0 - 2906.2179ms 
+2025-03-03 22:36:10.1549 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - 
+2025-03-03 22:36:10.6161 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - - - 200 - text/html;charset=utf-8 461.1428ms 
+2025-03-03 22:36:10.7973 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/swagger-ui.css - - 
+2025-03-03 22:36:10.7973 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/index.css - - 
+2025-03-03 22:36:10.7973 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/swagger-ui-bundle.js - - 
+2025-03-03 22:36:10.7973 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/index.js - - 
+2025-03-03 22:36:10.7973 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/swagger-ui-standalone-preset.js - - 
+2025-03-03 22:36:10.7973 | Info | Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - 
+2025-03-03 22:36:10.7973 | Info | Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-03 22:36:10.8053 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/index.js - - - 200 - application/javascript;charset=utf-8 6.7861ms 
+2025-03-03 22:36:10.8053 | Info | Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 18.5936ms 
+2025-03-03 22:36:10.8424 | Info | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-03 22:36:10.8987 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/index.css - - - 200 202 text/css 101.2103ms 
+2025-03-03 22:36:10.9393 | Info | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-03 22:36:10.9393 | Info | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-03 22:36:10.9575 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/swagger-ui.css - - - 200 154948 text/css 160.1000ms 
+2025-03-03 22:36:10.9637 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 165.4103ms 
+2025-03-03 22:36:11.1289 | Info | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-03 22:36:11.1289 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 331.9027ms 
+2025-03-03 22:36:11.4164 | Info | Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 616.7590ms 
+2025-03-03 22:36:11.6536 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/favicon-32x32.png - - 
+2025-03-03 22:36:11.6657 | Info | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-03 22:36:11.6657 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/favicon-32x32.png - - - 200 628 image/png 15.9226ms 
+2025-03-03 22:36:11.9552 | Info | Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - 
+2025-03-03 22:36:12.0201 | Info | Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.8585ms 
+2025-03-03 22:36:17.7198 | Info | Request starting HTTP/2 POST https://localhost:7209/UserRegister/register application/json 71 
+2025-03-03 22:36:17.7565 | Info | Executing endpoint 'HelloApp.Controllers.UserController.RegisterUser (RegisterUser)' 
+2025-03-03 22:36:17.8671 | Info | Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegisterUser(ModelLayer.DTO.RegisterDTO) on controller HelloApp.Controllers.UserController (RegisterUser). 
+2025-03-03 22:36:18.0650 | Info | Received registration request for: string 
+2025-03-03 22:36:18.0650 | Info | RegisterUser method called for string. 
+2025-03-03 22:36:18.0724 | Info | User string registered successfully. 
+2025-03-03 22:36:18.0724 | Info | User string registered successfully. 
+2025-03-03 22:36:18.0724 | Info | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-03 22:36:18.1052 | Info | Executed action HelloApp.Controllers.UserController.RegisterUser (RegisterUser) in 222.372ms 
+2025-03-03 22:36:18.1052 | Info | Executed endpoint 'HelloApp.Controllers.UserController.RegisterUser (RegisterUser)' 
+2025-03-03 22:36:18.1052 | Info | Request finished HTTP/2 POST https://localhost:7209/UserRegister/register application/json 71 - 200 - application/json;+charset=utf-8 389.9422ms 
